@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      padding: 10px !important;
+      color: white;
+      margin-left: 10px !important;
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li:hover {
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Shopping site</h1>
+    <ul>
+        <li>Shoes</li>
+        <li>Pants</li>
+        <li>T-shirts</li>
+        <li>Accessories</li>
+      </ul>
+        <table>
+          <tr>
+            <td>
+              <img src="https://cdn.pixabay.com/photo/2018/03/19/18/20/business-3240767__340.jpg" alt="" width="250" height="200">
+              <h3>Price: USD $45.00</h3>
+              <button>Buy Now</button></td>
+            <td>
+              <img src="https://cdn.pixabay.com/photo/2018/06/04/22/55/books-3454399__340.jpg" alt="" width="250" height="200">
+              <h3>Price: USD $55.00</h3>
+              <button>Buy Now</button></td>
+            <td>
+              <img src="https://cdn.pixabay.com/photo/2018/06/04/22/53/books-3454380__340.jpg" alt="" width="250" height="200">
+              <h3>Price: USD $58.00</h3>
+              <button>Buy Now</button></td>
+            </tr>
+        </table>
+</div>
